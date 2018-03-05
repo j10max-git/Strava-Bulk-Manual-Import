@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  This program was created to allow Strava users to bulk import manual entries through the simplicity of an excel sheet
+  This program was created to allow Strava users to bulk upload manual entries through the simplicity of an excel sheet
 </p>
 
 <p align="center">
