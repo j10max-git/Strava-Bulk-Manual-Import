@@ -26,6 +26,9 @@ Example text
 ## How to start
 Follow the Wiki How to Guide [found here](https://github.com/j10max-git/Strava-Bulk-Upload/wiki).
 
+## Contributing
+Please use the bugs tab if you wish to submit ideas
+
 ## Acknowledgements
 - Thanks to SourceForge HTMLUnit
 
