@@ -19,7 +19,7 @@ public class FileHandler extends Handler {
 
     @Override
     public void onEnable(Launcher launcher) {
-        com.j10max.strava.util.Console.info(String.format("Import Utility: %s", Ansi.GREEN + " CHECK"), false);
+        com.j10max.strava.util.Console.info(String.format("Import Utility: %s", " CHECK"), false);
     }
 
     @Override

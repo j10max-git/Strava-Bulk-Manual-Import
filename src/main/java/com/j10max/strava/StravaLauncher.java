@@ -7,7 +7,6 @@ import com.j10max.strava.file.entry.EntryResult;
 import com.j10max.strava.http.HTTPHandler;
 import com.j10max.strava.launcher.Launcher;
 import com.j10max.strava.settings.Settings;
-import com.j10max.strava.util.Ansi;
 import com.j10max.strava.util.Console;
 
 import java.io.File;
@@ -80,10 +79,10 @@ public class StravaLauncher {
             try {
                 HtmlPage page = this.http().loginToStrava(emailAddress, password);
                 if (!page.getUrl().toString().contains("login")) {
-                    Console.info(Ansi.GREEN + "Logged in successfully to Strava.net");
+                    Console.info("Logged in successfully to strava.com");
                     login = true;
                 } else {
-                    Console.info(Ansi.RED + "Log in failed to Strava.net");
+                    Console.info("Log in failed to strava.com");
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -146,7 +145,7 @@ public class StravaLauncher {
                 entriesFail++;
             }
         }
-        Console.info(String.format("Manual entries: %sSuccess[%s]  %sFailed[%s]", Ansi.GREEN, entriesSuccess, Ansi.RED, entriesFail), true);
+        Console.info(String.format("Manual entries: Success[%s]  Failed[%s]", entriesSuccess, entriesFail), true);
 
         if (entriesFail > 0) {
             Console.action("Do you wish to see the errors that occurred (Y/N): ");
@@ -187,7 +186,7 @@ public class StravaLauncher {
         }
 
         while (true) {
-            Console.action("Choose your distance field unit (feet/meters): ", false);
+            Console.action("Choose your elevation field unit (feet/meters): ", false);
             String elevationUnit = scanner.next();
             if (elevationUnit.equalsIgnoreCase("meters")) {
                 Settings.ELEVATION_UNIT.value("m");

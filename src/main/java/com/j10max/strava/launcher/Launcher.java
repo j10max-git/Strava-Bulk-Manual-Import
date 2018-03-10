@@ -1,7 +1,6 @@
 package com.j10max.strava.launcher;
 
 import com.j10max.strava.StravaLauncher;
-import com.j10max.strava.util.Ansi;
 import com.j10max.strava.util.Console;
 
 import java.io.File;
@@ -26,7 +25,7 @@ public class Launcher {
     public void init(StravaLauncher strava) {
         // Enable Handlers
         this.enableHandlers();
-        Console.info(String.format("Initialising Handlers: %s", Ansi.GREEN + " CHECK"), false);
+        Console.info(String.format("Initialising Handlers: %s", " CHECK"), false);
     }
 
     public void registerHandler(Handler handler) {

@@ -7,7 +7,7 @@ public class Console {
     }
 
     public static void action(String s, boolean whitespace) {
-        System.out.print(Ansi.RED + "ACTION:" + Ansi.WHITE  + "   " + s);
+        System.out.print("ACTION:" + "   " + s);
         if (whitespace) {
             whitespace();
         }
@@ -18,7 +18,7 @@ public class Console {
     }
 
     public static void info(String s, boolean whitespace) {
-        System.out.println(Ansi.GREEN + "INFO:   " + Ansi.WHITE + s);
+        System.out.println("INFO:   " + s);
         if (whitespace) {
             whitespace();
         }

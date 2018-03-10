@@ -10,7 +10,6 @@ import com.j10max.strava.file.entry.EntryType;
 import com.j10max.strava.launcher.Handler;
 import com.j10max.strava.launcher.Launcher;
 import com.j10max.strava.settings.Settings;
-import com.j10max.strava.util.Ansi;
 import com.j10max.strava.util.Console;
 
 import java.io.IOException;
@@ -29,7 +28,7 @@ public class HTTPHandler extends Handler {
 
     @Override
     public void onEnable(Launcher launcher) {
-        Console.info(String.format("Initialising Web Client: %s", Ansi.GREEN + " CHECK"), false);
+        Console.info(String.format("Initialising Web Client: %s", " CHECK"), false);
         webClient = new WebClient(BrowserVersion.BEST_SUPPORTED);
         webClient.getOptions().setJavaScriptEnabled(false);
         webClient.getOptions().setRedirectEnabled(true);
