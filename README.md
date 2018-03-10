@@ -17,6 +17,7 @@
 
 - [Introduction](#introduction)
 - [How to start](#how-to-start)
+- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
