@@ -1,6 +1,6 @@
 <h1 align="center"> Strava Bulk Upload <small>Tool</small> </h1> <br>
 <p align="center">
-    placeholder
+    <img width="500px" src="https://i.imgur.com/682w85O.png">
 </p>
 
 <p align="center">
