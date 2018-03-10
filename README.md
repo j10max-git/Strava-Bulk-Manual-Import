@@ -17,7 +17,7 @@
 
 - [Introduction](#introduction)
 - [How to start](#how-to-start)
-- [Contributing](#contributing)
+- [Support](#support)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
@@ -31,8 +31,8 @@ This script automates the manual submission of entries through Strava.net.  You 
 ## How to start
 Follow the Wiki How to Guide [found here](https://github.com/j10max-git/Strava-Bulk-Upload/wiki).
 
-## Contributing
-Please use the bugs tab if you wish to submit ideas
+## Support
+If you have encountered a problem please [contact me here](https://goo.gl/forms/xN1vK03SFQcjUyHJ3) or use the bugs tab
 
 ## Acknowledgements
 - Thanks to SourceForge HTMLUnit
