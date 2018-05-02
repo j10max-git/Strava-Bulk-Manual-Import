@@ -32,7 +32,7 @@ This script automates the manual submission of entries through Strava.net.  You 
 Follow the Wiki How to Guide [found here](https://github.com/j10max-git/Strava-Bulk-Upload/wiki).
 
 ## Support
-If you have encountered a problem please [contact me here](https://goo.gl/forms/xN1vK03SFQcjUyHJ3) or use the bugs tab
+If you have encountered a problem please use the bugs tab or [contact me here](https://goo.gl/forms/xN1vK03SFQcjUyHJ3)
 
 ## Acknowledgements
 - Thanks to SourceForge HTMLUnit
