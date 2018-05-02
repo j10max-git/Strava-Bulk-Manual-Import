@@ -152,9 +152,9 @@ public class FileHandler extends Handler {
                 if (!StringUtils.isBlank(split[7])) {
                     if (NumberUtils.isNumber(split[7])) {
                         if (entry.type() == EntryType.Run) {
-                            entry.bikeID = Integer.parseInt(split[7]);
-                        } else if (entry.type() == EntryType.Ride) {
                             entry.shoeID = Integer.parseInt(split[7]);
+                        } else if (entry.type() == EntryType.Ride) {
+                            entry.bikeID = Integer.parseInt(split[7]);
                         }
                     } else {
                         EntryResult result = new EntryResult(entry, false, "Bike/Shoe ID field is not a number");
