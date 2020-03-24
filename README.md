@@ -1,3 +1,7 @@
+<h1>NO LONGER WORKING - PLEASE VISIT STRAVASYNC.COM FOR NEW TOOL</h1>
+
+
+
 <h1 align="center"> Strava Bulk Upload <small>Tool</small> </h1>
 <p align="center">
     <img width="500px" src="https://i.imgur.com/682w85O.png">
